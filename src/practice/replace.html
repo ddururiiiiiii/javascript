@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<script type="text/javascript">
+	
+	//replace 첫번째 문자열만 바꾸기
+	let str = "사과, 배, 수박";
+	let strRep = str.replace("배", "오렌지");
+	console.log(strRep);
+	
+	//replace 여러 문자열 다 바꾸기
+	let str2 = "사과, 배, 배, 배, 수박";
+	let strRep2 = str2.replace(/배/gi, "오렌지");
+	console.log(strRep2);
+	
+</script>
+<body>
+
+</body>
+</html>
